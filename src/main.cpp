@@ -75,7 +75,7 @@ int main()
     Shader program("ShadowMapping.vs", "ShadowMapping.fs");
     Shader DepthProgram("DepthMap.vs", "DepthMap.fs");
     Shader PointDepthProgram("PointSP.vs", "PointSP.gs", "PointSP.fs");
-    Model model("Erika.fbx");
+    Model model("Assets/Erika.fbx");
     model.Position = glm::vec3(0);
     model.Scale = glm::vec3(1.0f);
     glm::mat4 projection = glm::perspective(glm::radians(45.0f), 1280.0f/720.0f, 0.1f, 1000.0f);

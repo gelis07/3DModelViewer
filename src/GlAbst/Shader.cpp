@@ -31,8 +31,8 @@ Shader::Shader(const std::string &vs, const std::string &fs)
 {
     GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);
     GLuint fragShader = glCreateShader(GL_FRAGMENT_SHADER);
-    std::string vertexSource = ReadFile(vs.c_str());
-    std::string fragSource = ReadFile(fs.c_str());
+    std::string vertexSource = ReadFile(("Shaders/" + vs).c_str());
+    std::string fragSource = ReadFile(("Shaders/" + fs).c_str());
     const char* vertexSourceS = vertexSource.c_str();
     const char* fragSourceS = fragSource.c_str();
     glShaderSource(vertexShader, 1, &vertexSourceS, NULL);
@@ -54,9 +54,9 @@ Shader::Shader(const std::string &vs, const std::string &gs, const std::string &
     GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);
     GLuint fragShader = glCreateShader(GL_FRAGMENT_SHADER);
     GLuint geometryShader = glCreateShader(GL_GEOMETRY_SHADER);
-    std::string vertexSource = ReadFile(vs.c_str());
-    std::string fragSource = ReadFile(fs.c_str());
-    std::string geomSource = ReadFile(gs.c_str());
+    std::string vertexSource = ReadFile(("Shaders/" + vs).c_str());
+    std::string fragSource = ReadFile(("Shaders/" + fs).c_str());
+    std::string geomSource = ReadFile(("Shaders/" + gs).c_str());
     const char* vertexSourceS = vertexSource.c_str();
     const char* fragSourceS = fragSource.c_str();
     const char* geomSourceS = geomSource.c_str();

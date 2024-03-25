@@ -120,10 +120,10 @@ void Scene::Editor()
             if(ImGui::Button(("LoadDiff##"+std::to_string(i)).c_str())){
                 mat->Diffuse[0] = Texture(GL_TEXTURE_2D, mat->Diffuse[0].path);
             }
-            ImGui::InputText("normal##"+std::to_string(i), );
-            if(ImGui::Button("LoadNorm##"+std::to_string(i))){
-                mat->Normal.push_back(Texture(GL_TEXTURE_2D, ));
-            } 
+            // ImGui::InputText("normal##"+std::to_string(i), );
+            // if(ImGui::Button("LoadNorm##"+std::to_string(i))){
+            //     mat->Normal.push_back(Texture(GL_TEXTURE_2D, ));
+            // } 
         }
         
     }
