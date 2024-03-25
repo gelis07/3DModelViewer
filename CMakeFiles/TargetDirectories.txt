@@ -1,0 +1,3 @@
+C:/Gelis/Programs/3D model viewer/CMakeFiles/Test.dir
+C:/Gelis/Programs/3D model viewer/CMakeFiles/edit_cache.dir
+C:/Gelis/Programs/3D model viewer/CMakeFiles/rebuild_cache.dir
