@@ -1855,6 +1855,434 @@ CMakeFiles/Test.dir/src/Camera.cpp.obj: src/Camera.cpp \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h
 
+CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj: src/Editor/Editor.cpp \
+  include/GL/glew.h \
+  include/GLFW/glfw3.h \
+  include/imgui/imconfig.h \
+  include/imgui/imgui.h \
+  include/imgui/imgui_impl_glfw.h \
+  include/imgui/imgui_impl_opengl3.h \
+  include/assimp/Compiler/poppack1.h \
+  include/assimp/Compiler/pushpack1.h \
+  include/assimp/Importer.hpp \
+  include/assimp/MathFunctions.h \
+  include/assimp/aabb.h \
+  include/assimp/anim.h \
+  include/assimp/camera.h \
+  include/assimp/color4.h \
+  include/assimp/color4.inl \
+  include/assimp/config.h \
+  include/assimp/defs.h \
+  include/assimp/light.h \
+  include/assimp/material.h \
+  include/assimp/material.inl \
+  include/assimp/matrix3x3.h \
+  include/assimp/matrix3x3.inl \
+  include/assimp/matrix4x4.h \
+  include/assimp/matrix4x4.inl \
+  include/assimp/mesh.h \
+  include/assimp/metadata.h \
+  include/assimp/postprocess.h \
+  include/assimp/quaternion.h \
+  include/assimp/quaternion.inl \
+  include/assimp/scene.h \
+  include/assimp/texture.h \
+  include/assimp/types.h \
+  include/assimp/vector2.h \
+  include/assimp/vector2.inl \
+  include/assimp/vector3.h \
+  include/assimp/vector3.inl \
+  include/glm/common.hpp \
+  include/glm/detail/_fixes.hpp \
+  include/glm/detail/_vectorize.hpp \
+  include/glm/detail/compute_common.hpp \
+  include/glm/detail/compute_vector_relational.hpp \
+  include/glm/detail/func_common.inl \
+  include/glm/detail/func_exponential.inl \
+  include/glm/detail/func_geometric.inl \
+  include/glm/detail/func_integer.inl \
+  include/glm/detail/func_matrix.inl \
+  include/glm/detail/func_packing.inl \
+  include/glm/detail/func_trigonometric.inl \
+  include/glm/detail/func_vector_relational.inl \
+  include/glm/detail/qualifier.hpp \
+  include/glm/detail/setup.hpp \
+  include/glm/detail/type_float.hpp \
+  include/glm/detail/type_half.hpp \
+  include/glm/detail/type_half.inl \
+  include/glm/detail/type_mat2x2.hpp \
+  include/glm/detail/type_mat2x2.inl \
+  include/glm/detail/type_mat2x3.hpp \
+  include/glm/detail/type_mat2x3.inl \
+  include/glm/detail/type_mat2x4.hpp \
+  include/glm/detail/type_mat2x4.inl \
+  include/glm/detail/type_mat3x2.hpp \
+  include/glm/detail/type_mat3x2.inl \
+  include/glm/detail/type_mat3x3.hpp \
+  include/glm/detail/type_mat3x3.inl \
+  include/glm/detail/type_mat3x4.hpp \
+  include/glm/detail/type_mat3x4.inl \
+  include/glm/detail/type_mat4x2.hpp \
+  include/glm/detail/type_mat4x2.inl \
+  include/glm/detail/type_mat4x3.hpp \
+  include/glm/detail/type_mat4x3.inl \
+  include/glm/detail/type_mat4x4.hpp \
+  include/glm/detail/type_mat4x4.inl \
+  include/glm/detail/type_quat.hpp \
+  include/glm/detail/type_quat.inl \
+  include/glm/detail/type_vec1.hpp \
+  include/glm/detail/type_vec1.inl \
+  include/glm/detail/type_vec2.hpp \
+  include/glm/detail/type_vec2.inl \
+  include/glm/detail/type_vec3.hpp \
+  include/glm/detail/type_vec3.inl \
+  include/glm/detail/type_vec4.hpp \
+  include/glm/detail/type_vec4.inl \
+  include/glm/exponential.hpp \
+  include/glm/ext/matrix_clip_space.hpp \
+  include/glm/ext/matrix_clip_space.inl \
+  include/glm/ext/matrix_double2x2.hpp \
+  include/glm/ext/matrix_double2x2_precision.hpp \
+  include/glm/ext/matrix_double2x3.hpp \
+  include/glm/ext/matrix_double2x3_precision.hpp \
+  include/glm/ext/matrix_double2x4.hpp \
+  include/glm/ext/matrix_double2x4_precision.hpp \
+  include/glm/ext/matrix_double3x2.hpp \
+  include/glm/ext/matrix_double3x2_precision.hpp \
+  include/glm/ext/matrix_double3x3.hpp \
+  include/glm/ext/matrix_double3x3_precision.hpp \
+  include/glm/ext/matrix_double3x4.hpp \
+  include/glm/ext/matrix_double3x4_precision.hpp \
+  include/glm/ext/matrix_double4x2.hpp \
+  include/glm/ext/matrix_double4x2_precision.hpp \
+  include/glm/ext/matrix_double4x3.hpp \
+  include/glm/ext/matrix_double4x3_precision.hpp \
+  include/glm/ext/matrix_double4x4.hpp \
+  include/glm/ext/matrix_double4x4_precision.hpp \
+  include/glm/ext/matrix_float2x2.hpp \
+  include/glm/ext/matrix_float2x2_precision.hpp \
+  include/glm/ext/matrix_float2x3.hpp \
+  include/glm/ext/matrix_float2x3_precision.hpp \
+  include/glm/ext/matrix_float2x4.hpp \
+  include/glm/ext/matrix_float2x4_precision.hpp \
+  include/glm/ext/matrix_float3x2.hpp \
+  include/glm/ext/matrix_float3x2_precision.hpp \
+  include/glm/ext/matrix_float3x3.hpp \
+  include/glm/ext/matrix_float3x3_precision.hpp \
+  include/glm/ext/matrix_float3x4.hpp \
+  include/glm/ext/matrix_float3x4_precision.hpp \
+  include/glm/ext/matrix_float4x2.hpp \
+  include/glm/ext/matrix_float4x2_precision.hpp \
+  include/glm/ext/matrix_float4x3.hpp \
+  include/glm/ext/matrix_float4x3_precision.hpp \
+  include/glm/ext/matrix_float4x4.hpp \
+  include/glm/ext/matrix_float4x4_precision.hpp \
+  include/glm/ext/matrix_projection.hpp \
+  include/glm/ext/matrix_projection.inl \
+  include/glm/ext/matrix_transform.hpp \
+  include/glm/ext/matrix_transform.inl \
+  include/glm/ext/quaternion_common.hpp \
+  include/glm/ext/quaternion_common.inl \
+  include/glm/ext/quaternion_double.hpp \
+  include/glm/ext/quaternion_double_precision.hpp \
+  include/glm/ext/quaternion_float.hpp \
+  include/glm/ext/quaternion_float_precision.hpp \
+  include/glm/ext/quaternion_geometric.hpp \
+  include/glm/ext/quaternion_geometric.inl \
+  include/glm/ext/quaternion_relational.hpp \
+  include/glm/ext/quaternion_relational.inl \
+  include/glm/ext/quaternion_transform.hpp \
+  include/glm/ext/quaternion_transform.inl \
+  include/glm/ext/quaternion_trigonometric.hpp \
+  include/glm/ext/quaternion_trigonometric.inl \
+  include/glm/ext/scalar_constants.hpp \
+  include/glm/ext/scalar_constants.inl \
+  include/glm/ext/scalar_int_sized.hpp \
+  include/glm/ext/scalar_uint_sized.hpp \
+  include/glm/ext/vector_bool1.hpp \
+  include/glm/ext/vector_bool1_precision.hpp \
+  include/glm/ext/vector_bool2.hpp \
+  include/glm/ext/vector_bool2_precision.hpp \
+  include/glm/ext/vector_bool3.hpp \
+  include/glm/ext/vector_bool3_precision.hpp \
+  include/glm/ext/vector_bool4.hpp \
+  include/glm/ext/vector_bool4_precision.hpp \
+  include/glm/ext/vector_double1.hpp \
+  include/glm/ext/vector_double1_precision.hpp \
+  include/glm/ext/vector_double2.hpp \
+  include/glm/ext/vector_double2_precision.hpp \
+  include/glm/ext/vector_double3.hpp \
+  include/glm/ext/vector_double3_precision.hpp \
+  include/glm/ext/vector_double4.hpp \
+  include/glm/ext/vector_double4_precision.hpp \
+  include/glm/ext/vector_float1.hpp \
+  include/glm/ext/vector_float1_precision.hpp \
+  include/glm/ext/vector_float2.hpp \
+  include/glm/ext/vector_float2_precision.hpp \
+  include/glm/ext/vector_float3.hpp \
+  include/glm/ext/vector_float3_precision.hpp \
+  include/glm/ext/vector_float4.hpp \
+  include/glm/ext/vector_float4_precision.hpp \
+  include/glm/ext/vector_int1.hpp \
+  include/glm/ext/vector_int1_sized.hpp \
+  include/glm/ext/vector_int2.hpp \
+  include/glm/ext/vector_int2_sized.hpp \
+  include/glm/ext/vector_int3.hpp \
+  include/glm/ext/vector_int3_sized.hpp \
+  include/glm/ext/vector_int4.hpp \
+  include/glm/ext/vector_int4_sized.hpp \
+  include/glm/ext/vector_relational.hpp \
+  include/glm/ext/vector_relational.inl \
+  include/glm/ext/vector_uint1.hpp \
+  include/glm/ext/vector_uint1_sized.hpp \
+  include/glm/ext/vector_uint2.hpp \
+  include/glm/ext/vector_uint2_sized.hpp \
+  include/glm/ext/vector_uint3.hpp \
+  include/glm/ext/vector_uint3_sized.hpp \
+  include/glm/ext/vector_uint4.hpp \
+  include/glm/ext/vector_uint4_sized.hpp \
+  include/glm/fwd.hpp \
+  include/glm/geometric.hpp \
+  include/glm/glm.hpp \
+  include/glm/gtc/constants.hpp \
+  include/glm/gtc/constants.inl \
+  include/glm/gtc/epsilon.hpp \
+  include/glm/gtc/epsilon.inl \
+  include/glm/gtc/matrix_transform.hpp \
+  include/glm/gtc/matrix_transform.inl \
+  include/glm/gtc/quaternion.hpp \
+  include/glm/gtc/quaternion.inl \
+  include/glm/gtc/type_ptr.hpp \
+  include/glm/gtc/type_ptr.inl \
+  include/glm/gtc/vec1.hpp \
+  include/glm/integer.hpp \
+  include/glm/mat2x2.hpp \
+  include/glm/mat2x3.hpp \
+  include/glm/mat2x4.hpp \
+  include/glm/mat3x2.hpp \
+  include/glm/mat3x3.hpp \
+  include/glm/mat3x4.hpp \
+  include/glm/mat4x2.hpp \
+  include/glm/mat4x3.hpp \
+  include/glm/mat4x4.hpp \
+  include/glm/matrix.hpp \
+  include/glm/packing.hpp \
+  include/glm/simd/platform.h \
+  include/glm/trigonometric.hpp \
+  include/glm/vec2.hpp \
+  include/glm/vec3.hpp \
+  include/glm/vec4.hpp \
+  include/glm/vector_relational.hpp \
+  include/imgui/imgui_stdlib.h \
+  src/Camera.h \
+  src/Editor/Editor.h \
+  src/GlAbst/Framebuffer.h \
+  src/GlAbst/Shader.h \
+  src/GlAbst/Texture.h \
+  src/GlAbst/VertexPackage.h \
+  src/Light.h \
+  src/Material.h \
+  src/Mesh.h \
+  src/Model.h \
+  src/Scenes.h \
+  src/pch.h \
+  C:/msys64/mingw64/include/GL/gl.h \
+  C:/msys64/mingw64/include/GL/glu.h \
+  C:/msys64/mingw64/include/_mingw.h \
+  C:/msys64/mingw64/include/_mingw_mac.h \
+  C:/msys64/mingw64/include/_mingw_off_t.h \
+  C:/msys64/mingw64/include/_mingw_secapi.h \
+  C:/msys64/mingw64/include/_mingw_stat64.h \
+  C:/msys64/mingw64/include/_mingw_stdarg.h \
+  C:/msys64/mingw64/include/_timeval.h \
+  C:/msys64/mingw64/include/assert.h \
+  C:/msys64/mingw64/include/c++/13.2.0/algorithm \
+  C:/msys64/mingw64/include/c++/13.2.0/backward/binders.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bit \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/algorithmfwd.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/alloc_traits.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/allocator.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/basic_ios.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/basic_ios.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/basic_string.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/basic_string.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/char_traits.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/charconv.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/codecvt.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/concept_check.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/cpp_type_traits.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/cxxabi_forced.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/cxxabi_init_exception.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/enable_special_members.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/exception.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/exception_defines.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/exception_ptr.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/fstream.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/functexcept.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/functional_hash.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/hash_bytes.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/invoke.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/ios_base.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/istream.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/locale_classes.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/locale_classes.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/locale_facets.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/locale_facets.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/localefwd.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/memory_resource.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/memoryfwd.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/move.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/nested_exception.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/new_allocator.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/ostream.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/ostream_insert.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/postypes.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/predefined_ops.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/ptr_traits.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/range_access.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/refwrap.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/requires_hosted.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/specfun.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/std_abs.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_algo.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_algobase.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_bvector.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_construct.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_function.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_heap.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_iterator.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_pair.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_tempbuf.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_uninitialized.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_vector.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/streambuf.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/streambuf_iterator.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/string_view.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stringfwd.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/uniform_int_dist.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/uses_allocator.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/uses_allocator_args.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/utility.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/vector.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/cassert \
+  C:/msys64/mingw64/include/c++/13.2.0/cctype \
+  C:/msys64/mingw64/include/c++/13.2.0/cerrno \
+  C:/msys64/mingw64/include/c++/13.2.0/cfloat \
+  C:/msys64/mingw64/include/c++/13.2.0/climits \
+  C:/msys64/mingw64/include/c++/13.2.0/clocale \
+  C:/msys64/mingw64/include/c++/13.2.0/cmath \
+  C:/msys64/mingw64/include/c++/13.2.0/cstddef \
+  C:/msys64/mingw64/include/c++/13.2.0/cstdint \
+  C:/msys64/mingw64/include/c++/13.2.0/cstdio \
+  C:/msys64/mingw64/include/c++/13.2.0/cstdlib \
+  C:/msys64/mingw64/include/c++/13.2.0/cstring \
+  C:/msys64/mingw64/include/c++/13.2.0/cwchar \
+  C:/msys64/mingw64/include/c++/13.2.0/cwctype \
+  C:/msys64/mingw64/include/c++/13.2.0/debug/assertions.h \
+  C:/msys64/mingw64/include/c++/13.2.0/debug/debug.h \
+  C:/msys64/mingw64/include/c++/13.2.0/exception \
+  C:/msys64/mingw64/include/c++/13.2.0/ext/alloc_traits.h \
+  C:/msys64/mingw64/include/c++/13.2.0/ext/atomicity.h \
+  C:/msys64/mingw64/include/c++/13.2.0/ext/numeric_traits.h \
+  C:/msys64/mingw64/include/c++/13.2.0/ext/string_conversions.h \
+  C:/msys64/mingw64/include/c++/13.2.0/ext/type_traits.h \
+  C:/msys64/mingw64/include/c++/13.2.0/fstream \
+  C:/msys64/mingw64/include/c++/13.2.0/initializer_list \
+  C:/msys64/mingw64/include/c++/13.2.0/ios \
+  C:/msys64/mingw64/include/c++/13.2.0/iosfwd \
+  C:/msys64/mingw64/include/c++/13.2.0/iostream \
+  C:/msys64/mingw64/include/c++/13.2.0/istream \
+  C:/msys64/mingw64/include/c++/13.2.0/limits \
+  C:/msys64/mingw64/include/c++/13.2.0/new \
+  C:/msys64/mingw64/include/c++/13.2.0/optional \
+  C:/msys64/mingw64/include/c++/13.2.0/ostream \
+  C:/msys64/mingw64/include/c++/13.2.0/pstl/execution_defs.h \
+  C:/msys64/mingw64/include/c++/13.2.0/pstl/glue_algorithm_defs.h \
+  C:/msys64/mingw64/include/c++/13.2.0/pstl/pstl_config.h \
+  C:/msys64/mingw64/include/c++/13.2.0/stdexcept \
+  C:/msys64/mingw64/include/c++/13.2.0/stdlib.h \
+  C:/msys64/mingw64/include/c++/13.2.0/streambuf \
+  C:/msys64/mingw64/include/c++/13.2.0/string \
+  C:/msys64/mingw64/include/c++/13.2.0/string_view \
+  C:/msys64/mingw64/include/c++/13.2.0/system_error \
+  C:/msys64/mingw64/include/c++/13.2.0/tr1/bessel_function.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/tr1/beta_function.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/tr1/ell_integral.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/tr1/exp_integral.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/tr1/gamma.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/tr1/hypergeometric.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/tr1/legendre_function.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/tr1/modified_bessel_func.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/tr1/poly_hermite.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/tr1/poly_laguerre.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/tr1/riemann_zeta.tcc \
+  C:/msys64/mingw64/include/c++/13.2.0/tr1/special_function_util.h \
+  C:/msys64/mingw64/include/c++/13.2.0/tuple \
+  C:/msys64/mingw64/include/c++/13.2.0/type_traits \
+  C:/msys64/mingw64/include/c++/13.2.0/typeinfo \
+  C:/msys64/mingw64/include/c++/13.2.0/vector \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/msys64/mingw64/include/corecrt.h \
+  C:/msys64/mingw64/include/corecrt_startup.h \
+  C:/msys64/mingw64/include/corecrt_stdio_config.h \
+  C:/msys64/mingw64/include/corecrt_wstdlib.h \
+  C:/msys64/mingw64/include/crtdefs.h \
+  C:/msys64/mingw64/include/ctype.h \
+  C:/msys64/mingw64/include/errno.h \
+  C:/msys64/mingw64/include/float.h \
+  C:/msys64/mingw64/include/inttypes.h \
+  C:/msys64/mingw64/include/limits.h \
+  C:/msys64/mingw64/include/locale.h \
+  C:/msys64/mingw64/include/malloc.h \
+  C:/msys64/mingw64/include/math.h \
+  C:/msys64/mingw64/include/process.h \
+  C:/msys64/mingw64/include/pthread.h \
+  C:/msys64/mingw64/include/pthread_compat.h \
+  C:/msys64/mingw64/include/pthread_signal.h \
+  C:/msys64/mingw64/include/pthread_time.h \
+  C:/msys64/mingw64/include/pthread_unistd.h \
+  C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/msys64/mingw64/include/sec_api/stdio_s.h \
+  C:/msys64/mingw64/include/sec_api/stdlib_s.h \
+  C:/msys64/mingw64/include/sec_api/string_s.h \
+  C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/mingw64/include/sec_api/wchar_s.h \
+  C:/msys64/mingw64/include/signal.h \
+  C:/msys64/mingw64/include/stdarg.h \
+  C:/msys64/mingw64/include/stddef.h \
+  C:/msys64/mingw64/include/stdint.h \
+  C:/msys64/mingw64/include/stdio.h \
+  C:/msys64/mingw64/include/stdlib.h \
+  C:/msys64/mingw64/include/string.h \
+  C:/msys64/mingw64/include/swprintf.inl \
+  C:/msys64/mingw64/include/sys/timeb.h \
+  C:/msys64/mingw64/include/sys/types.h \
+  C:/msys64/mingw64/include/time.h \
+  C:/msys64/mingw64/include/vadefs.h \
+  C:/msys64/mingw64/include/wchar.h \
+  C:/msys64/mingw64/include/wctype.h \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/float.h \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h
+
 CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj: src/GlAbst/Framebuffer.cpp \
   include/GL/glew.h \
   include/GLFW/glfw3.h \
@@ -5590,6 +6018,7 @@ CMakeFiles/Test.dir/src/main.cpp.obj: src/main.cpp \
   include/imgui/imgui_stdlib.h \
   src/Camera.h \
   src/CubeVertInd.h \
+  src/Editor/Editor.h \
   src/GlAbst/Framebuffer.h \
   src/GlAbst/Shader.h \
   src/GlAbst/Texture.h \
@@ -5999,6 +6428,8 @@ C:/msys64/mingw64/include/c++/13.2.0/ext/type_traits.h:
 C:/msys64/mingw64/include/securitybaseapi.h:
 
 C:/msys64/mingw64/include/mmiscapi2.h:
+
+src/Editor/Editor.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/pstl/pstl_config.h:
 
@@ -7008,6 +7439,8 @@ include/glm/vec3.hpp:
 
 include/glm/vec4.hpp:
 
+src/Editor/Editor.cpp:
+
 include/glm/vector_relational.hpp:
 
 src/Camera.h:
@@ -7096,24 +7529,6 @@ C:/msys64/mingw64/include/sys/types.h:
 
 C:/msys64/mingw64/include/time.h:
 
-src/GlAbst/Texture.h:
-
-src/GlAbst/Shader.cpp:
-
-src/GlAbst/Texture.cpp:
-
-src/stb_image.h:
-
-src/Light.h:
-
-src/Material.cpp:
-
-src/Material.h:
-
-src/Mesh.cpp:
-
-src/Model.cpp:
-
 include/assimp/Compiler/poppack1.h:
 
 include/assimp/Compiler/pushpack1.h:
@@ -7158,7 +7573,15 @@ include/assimp/vector2.inl:
 
 include/assimp/vector3.inl:
 
+src/GlAbst/Texture.h:
+
+src/Light.h:
+
+src/Material.h:
+
 src/Model.h:
+
+src/Scenes.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/algorithm:
 
@@ -7170,6 +7593,16 @@ C:/msys64/mingw64/include/c++/13.2.0/bits/uniform_int_dist.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/optional:
 
-src/Scenes.h:
+src/GlAbst/Shader.cpp:
+
+src/GlAbst/Texture.cpp:
+
+src/stb_image.h:
+
+src/Material.cpp:
+
+src/Mesh.cpp:
+
+src/Model.cpp:
 
 src/CubeVertInd.h:

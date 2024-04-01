@@ -159,11 +159,26 @@ CMakeFiles/Test.dir/src/Light.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Test.dir/src/Light.cpp.s"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:/Gelis/Programs/3D model viewer/src/Light.cpp" -o CMakeFiles/Test.dir/src/Light.cpp.s
 
+CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj: CMakeFiles/Test.dir/flags.make
+CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
+CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj: src/Editor/Editor.cpp
+CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj -MF CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj.d -o CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj -c "C:/Gelis/Programs/3D model viewer/src/Editor/Editor.cpp"
+
+CMakeFiles/Test.dir/src/Editor/Editor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Test.dir/src/Editor/Editor.cpp.i"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:/Gelis/Programs/3D model viewer/src/Editor/Editor.cpp" > CMakeFiles/Test.dir/src/Editor/Editor.cpp.i
+
+CMakeFiles/Test.dir/src/Editor/Editor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Test.dir/src/Editor/Editor.cpp.s"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:/Gelis/Programs/3D model viewer/src/Editor/Editor.cpp" -o CMakeFiles/Test.dir/src/Editor/Editor.cpp.s
+
 CMakeFiles/Test.dir/src/Scenes.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/src/Scenes.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/src/Scenes.cpp.obj: src/Scenes.cpp
 CMakeFiles/Test.dir/src/Scenes.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Test.dir/src/Scenes.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Test.dir/src/Scenes.cpp.obj"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/src/Scenes.cpp.obj -MF CMakeFiles/Test.dir/src/Scenes.cpp.obj.d -o CMakeFiles/Test.dir/src/Scenes.cpp.obj -c "C:/Gelis/Programs/3D model viewer/src/Scenes.cpp"
 
 CMakeFiles/Test.dir/src/Scenes.cpp.i: cmake_force
@@ -178,7 +193,7 @@ CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj: CMakeFiles/Test.dir/flags.ma
 CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj: src/GlAbst/Framebuffer.cpp
 CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj -MF CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj.d -o CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj -c "C:/Gelis/Programs/3D model viewer/src/GlAbst/Framebuffer.cpp"
 
 CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.i: cmake_force
@@ -193,7 +208,7 @@ CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.obj: src/GlAbst/Shader.cpp
 CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.obj"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.obj -MF CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.obj.d -o CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.obj -c "C:/Gelis/Programs/3D model viewer/src/GlAbst/Shader.cpp"
 
 CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.i: cmake_force
@@ -208,7 +223,7 @@ CMakeFiles/Test.dir/src/GlAbst/Texture.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/src/GlAbst/Texture.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/src/GlAbst/Texture.cpp.obj: src/GlAbst/Texture.cpp
 CMakeFiles/Test.dir/src/GlAbst/Texture.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Test.dir/src/GlAbst/Texture.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Test.dir/src/GlAbst/Texture.cpp.obj"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/src/GlAbst/Texture.cpp.obj -MF CMakeFiles/Test.dir/src/GlAbst/Texture.cpp.obj.d -o CMakeFiles/Test.dir/src/GlAbst/Texture.cpp.obj -c "C:/Gelis/Programs/3D model viewer/src/GlAbst/Texture.cpp"
 
 CMakeFiles/Test.dir/src/GlAbst/Texture.cpp.i: cmake_force
@@ -223,7 +238,7 @@ CMakeFiles/Test.dir/src/GlAbst/VertexPackage.cpp.obj: CMakeFiles/Test.dir/flags.
 CMakeFiles/Test.dir/src/GlAbst/VertexPackage.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/src/GlAbst/VertexPackage.cpp.obj: src/GlAbst/VertexPackage.cpp
 CMakeFiles/Test.dir/src/GlAbst/VertexPackage.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Test.dir/src/GlAbst/VertexPackage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Test.dir/src/GlAbst/VertexPackage.cpp.obj"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/src/GlAbst/VertexPackage.cpp.obj -MF CMakeFiles/Test.dir/src/GlAbst/VertexPackage.cpp.obj.d -o CMakeFiles/Test.dir/src/GlAbst/VertexPackage.cpp.obj -c "C:/Gelis/Programs/3D model viewer/src/GlAbst/VertexPackage.cpp"
 
 CMakeFiles/Test.dir/src/GlAbst/VertexPackage.cpp.i: cmake_force
@@ -238,7 +253,7 @@ CMakeFiles/Test.dir/include/imgui/imgui_draw.cpp.obj: CMakeFiles/Test.dir/flags.
 CMakeFiles/Test.dir/include/imgui/imgui_draw.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/include/imgui/imgui_draw.cpp.obj: include/imgui/imgui_draw.cpp
 CMakeFiles/Test.dir/include/imgui/imgui_draw.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui_draw.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui_draw.cpp.obj"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/include/imgui/imgui_draw.cpp.obj -MF CMakeFiles/Test.dir/include/imgui/imgui_draw.cpp.obj.d -o CMakeFiles/Test.dir/include/imgui/imgui_draw.cpp.obj -c "C:/Gelis/Programs/3D model viewer/include/imgui/imgui_draw.cpp"
 
 CMakeFiles/Test.dir/include/imgui/imgui_draw.cpp.i: cmake_force
@@ -253,7 +268,7 @@ CMakeFiles/Test.dir/include/imgui/imgui_impl_glfw.cpp.obj: CMakeFiles/Test.dir/f
 CMakeFiles/Test.dir/include/imgui/imgui_impl_glfw.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/include/imgui/imgui_impl_glfw.cpp.obj: include/imgui/imgui_impl_glfw.cpp
 CMakeFiles/Test.dir/include/imgui/imgui_impl_glfw.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui_impl_glfw.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui_impl_glfw.cpp.obj"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/include/imgui/imgui_impl_glfw.cpp.obj -MF CMakeFiles/Test.dir/include/imgui/imgui_impl_glfw.cpp.obj.d -o CMakeFiles/Test.dir/include/imgui/imgui_impl_glfw.cpp.obj -c "C:/Gelis/Programs/3D model viewer/include/imgui/imgui_impl_glfw.cpp"
 
 CMakeFiles/Test.dir/include/imgui/imgui_impl_glfw.cpp.i: cmake_force
@@ -268,7 +283,7 @@ CMakeFiles/Test.dir/include/imgui/imgui_stdlib.cpp.obj: CMakeFiles/Test.dir/flag
 CMakeFiles/Test.dir/include/imgui/imgui_stdlib.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/include/imgui/imgui_stdlib.cpp.obj: include/imgui/imgui_stdlib.cpp
 CMakeFiles/Test.dir/include/imgui/imgui_stdlib.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui_stdlib.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui_stdlib.cpp.obj"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/include/imgui/imgui_stdlib.cpp.obj -MF CMakeFiles/Test.dir/include/imgui/imgui_stdlib.cpp.obj.d -o CMakeFiles/Test.dir/include/imgui/imgui_stdlib.cpp.obj -c "C:/Gelis/Programs/3D model viewer/include/imgui/imgui_stdlib.cpp"
 
 CMakeFiles/Test.dir/include/imgui/imgui_stdlib.cpp.i: cmake_force
@@ -283,7 +298,7 @@ CMakeFiles/Test.dir/include/imgui/imgui_impl_opengl3.cpp.obj: CMakeFiles/Test.di
 CMakeFiles/Test.dir/include/imgui/imgui_impl_opengl3.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/include/imgui/imgui_impl_opengl3.cpp.obj: include/imgui/imgui_impl_opengl3.cpp
 CMakeFiles/Test.dir/include/imgui/imgui_impl_opengl3.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui_impl_opengl3.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui_impl_opengl3.cpp.obj"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/include/imgui/imgui_impl_opengl3.cpp.obj -MF CMakeFiles/Test.dir/include/imgui/imgui_impl_opengl3.cpp.obj.d -o CMakeFiles/Test.dir/include/imgui/imgui_impl_opengl3.cpp.obj -c "C:/Gelis/Programs/3D model viewer/include/imgui/imgui_impl_opengl3.cpp"
 
 CMakeFiles/Test.dir/include/imgui/imgui_impl_opengl3.cpp.i: cmake_force
@@ -298,7 +313,7 @@ CMakeFiles/Test.dir/include/imgui/imgui.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/include/imgui/imgui.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/include/imgui/imgui.cpp.obj: include/imgui/imgui.cpp
 CMakeFiles/Test.dir/include/imgui/imgui.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui.cpp.obj"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/include/imgui/imgui.cpp.obj -MF CMakeFiles/Test.dir/include/imgui/imgui.cpp.obj.d -o CMakeFiles/Test.dir/include/imgui/imgui.cpp.obj -c "C:/Gelis/Programs/3D model viewer/include/imgui/imgui.cpp"
 
 CMakeFiles/Test.dir/include/imgui/imgui.cpp.i: cmake_force
@@ -313,7 +328,7 @@ CMakeFiles/Test.dir/include/imgui/imgui_demo.cpp.obj: CMakeFiles/Test.dir/flags.
 CMakeFiles/Test.dir/include/imgui/imgui_demo.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/include/imgui/imgui_demo.cpp.obj: include/imgui/imgui_demo.cpp
 CMakeFiles/Test.dir/include/imgui/imgui_demo.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui_demo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui_demo.cpp.obj"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/include/imgui/imgui_demo.cpp.obj -MF CMakeFiles/Test.dir/include/imgui/imgui_demo.cpp.obj.d -o CMakeFiles/Test.dir/include/imgui/imgui_demo.cpp.obj -c "C:/Gelis/Programs/3D model viewer/include/imgui/imgui_demo.cpp"
 
 CMakeFiles/Test.dir/include/imgui/imgui_demo.cpp.i: cmake_force
@@ -328,7 +343,7 @@ CMakeFiles/Test.dir/include/imgui/imgui_tables.cpp.obj: CMakeFiles/Test.dir/flag
 CMakeFiles/Test.dir/include/imgui/imgui_tables.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/include/imgui/imgui_tables.cpp.obj: include/imgui/imgui_tables.cpp
 CMakeFiles/Test.dir/include/imgui/imgui_tables.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui_tables.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui_tables.cpp.obj"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/include/imgui/imgui_tables.cpp.obj -MF CMakeFiles/Test.dir/include/imgui/imgui_tables.cpp.obj.d -o CMakeFiles/Test.dir/include/imgui/imgui_tables.cpp.obj -c "C:/Gelis/Programs/3D model viewer/include/imgui/imgui_tables.cpp"
 
 CMakeFiles/Test.dir/include/imgui/imgui_tables.cpp.i: cmake_force
@@ -343,7 +358,7 @@ CMakeFiles/Test.dir/include/imgui/imgui_widgets.cpp.obj: CMakeFiles/Test.dir/fla
 CMakeFiles/Test.dir/include/imgui/imgui_widgets.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/include/imgui/imgui_widgets.cpp.obj: include/imgui/imgui_widgets.cpp
 CMakeFiles/Test.dir/include/imgui/imgui_widgets.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui_widgets.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Test.dir/include/imgui/imgui_widgets.cpp.obj"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/include/imgui/imgui_widgets.cpp.obj -MF CMakeFiles/Test.dir/include/imgui/imgui_widgets.cpp.obj.d -o CMakeFiles/Test.dir/include/imgui/imgui_widgets.cpp.obj -c "C:/Gelis/Programs/3D model viewer/include/imgui/imgui_widgets.cpp"
 
 CMakeFiles/Test.dir/include/imgui/imgui_widgets.cpp.i: cmake_force
@@ -362,6 +377,7 @@ Test_OBJECTS = \
 "CMakeFiles/Test.dir/src/Model.cpp.obj" \
 "CMakeFiles/Test.dir/src/Material.cpp.obj" \
 "CMakeFiles/Test.dir/src/Light.cpp.obj" \
+"CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj" \
 "CMakeFiles/Test.dir/src/Scenes.cpp.obj" \
 "CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj" \
 "CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.obj" \
@@ -385,6 +401,7 @@ bin/Test.exe: CMakeFiles/Test.dir/src/Mesh.cpp.obj
 bin/Test.exe: CMakeFiles/Test.dir/src/Model.cpp.obj
 bin/Test.exe: CMakeFiles/Test.dir/src/Material.cpp.obj
 bin/Test.exe: CMakeFiles/Test.dir/src/Light.cpp.obj
+bin/Test.exe: CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj
 bin/Test.exe: CMakeFiles/Test.dir/src/Scenes.cpp.obj
 bin/Test.exe: CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj
 bin/Test.exe: CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.obj
@@ -401,7 +418,7 @@ bin/Test.exe: CMakeFiles/Test.dir/include/imgui/imgui_widgets.cpp.obj
 bin/Test.exe: CMakeFiles/Test.dir/build.make
 bin/Test.exe: CMakeFiles/Test.dir/linkLibs.rsp
 bin/Test.exe: CMakeFiles/Test.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable bin/Test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:/Gelis/Programs/3D model viewer/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable bin/Test.exe"
 	"D:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/Test.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/Test.dir/objects.a @CMakeFiles/Test.dir/objects1.rsp
 	C:/msys64/mingw64/bin/g++.exe  -Wno-dev -Wl,--whole-archive CMakeFiles/Test.dir/objects.a -Wl,--no-whole-archive -o bin/Test.exe -Wl,--out-implib,libTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/Test.dir/linkLibs.rsp

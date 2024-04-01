@@ -13,13 +13,12 @@ class Scene{
         void AddModel(Model&& model); // Refrence by value because the model should be new/copied and not get accesed by the "original" version.
         void AddDirLight(Light&& light);
         void AddPointLight(PointLight&& light);
-        void Editor();
         Camera camera;
-    private:
-        bool NormPerFrag = true;
         std::vector<Model> Models;
         std::vector<Light> DirectionalLights;
         std::vector<PointLight> PointLights;
+    private:
+        bool NormPerFrag = true;
         void LoadScene(Shader& program); //Basically the raw render code to work for depth testing and the final render.
         glm::mat4 shadowProj; 
         float FarPlane;

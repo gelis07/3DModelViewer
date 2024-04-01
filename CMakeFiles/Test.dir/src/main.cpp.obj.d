@@ -420,4 +420,6 @@ CMakeFiles/Test.dir/src/main.cpp.obj: \
  C:/Gelis/Programs/3D\ model\ viewer/include/assimp/postprocess.h \
  C:/Gelis/Programs/3D\ model\ viewer/src/Light.h \
  C:/Gelis/Programs/3D\ model\ viewer/src/CubeVertInd.h \
- C:/Gelis/Programs/3D\ model\ viewer/src/Scenes.h
+ C:/Gelis/Programs/3D\ model\ viewer/src/Scenes.h \
+ C:/Gelis/Programs/3D\ model\ viewer/src/Editor/Editor.h \
+ C:/Gelis/Programs/3D\ model\ viewer/src/pch.h

@@ -14,6 +14,7 @@ add_executable(Test
     src/Model.cpp
     src/Material.cpp
     src/Light.cpp
+    src/Editor/Editor.cpp
     src/Scenes.cpp
     src/GlAbst/Framebuffer.cpp
     src/GlAbst/Shader.cpp

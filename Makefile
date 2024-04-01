@@ -345,6 +345,30 @@ src/Camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/src/Camera.cpp.s
 .PHONY : src/Camera.cpp.s
 
+src/Editor/Editor.obj: src/Editor/Editor.cpp.obj
+.PHONY : src/Editor/Editor.obj
+
+# target to build an object file
+src/Editor/Editor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj
+.PHONY : src/Editor/Editor.cpp.obj
+
+src/Editor/Editor.i: src/Editor/Editor.cpp.i
+.PHONY : src/Editor/Editor.i
+
+# target to preprocess a source file
+src/Editor/Editor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/src/Editor/Editor.cpp.i
+.PHONY : src/Editor/Editor.cpp.i
+
+src/Editor/Editor.s: src/Editor/Editor.cpp.s
+.PHONY : src/Editor/Editor.s
+
+# target to generate assembly for a file
+src/Editor/Editor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/src/Editor/Editor.cpp.s
+.PHONY : src/Editor/Editor.cpp.s
+
 src/GlAbst/Framebuffer.obj: src/GlAbst/Framebuffer.cpp.obj
 .PHONY : src/GlAbst/Framebuffer.obj
 
@@ -621,6 +645,9 @@ help:
 	@echo "... src/Camera.obj"
 	@echo "... src/Camera.i"
 	@echo "... src/Camera.s"
+	@echo "... src/Editor/Editor.obj"
+	@echo "... src/Editor/Editor.i"
+	@echo "... src/Editor/Editor.s"
 	@echo "... src/GlAbst/Framebuffer.obj"
 	@echo "... src/GlAbst/Framebuffer.i"
 	@echo "... src/GlAbst/Framebuffer.s"

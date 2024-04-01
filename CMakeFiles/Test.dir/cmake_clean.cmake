@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Test.dir/include/imgui/imgui_widgets.cpp.obj.d"
   "CMakeFiles/Test.dir/src/Camera.cpp.obj"
   "CMakeFiles/Test.dir/src/Camera.cpp.obj.d"
+  "CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj"
+  "CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj.d"
   "CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj"
   "CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj.d"
   "CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.obj"

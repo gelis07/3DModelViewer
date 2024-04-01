@@ -67,7 +67,7 @@ void Texture::LoadCubeMap(const std::vector<std::string> &faces)
 
 void Texture::LoadImage(const std::string &path)
 {
-    stbi_set_flip_vertically_on_load(false);
+    stbi_set_flip_vertically_on_load(true);
     this->path = path;
     glCreateTextures(GL_TEXTURE_2D, 1, &ID);
     glBindTexture(GL_TEXTURE_2D, ID);

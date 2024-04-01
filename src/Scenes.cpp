@@ -97,38 +97,6 @@ void Scene::AddPointLight(PointLight &&light)
     PointLights.push_back(light);
 }
 
-void Scene::Editor()
-{
-    ImGui::Begin("Editor");
-    ImGui::DragFloat3("Camera", glm::value_ptr(camera.GetPos()));
-    ImGui::DragFloat3("Ambient", glm::value_ptr(Material::Ambient));
-    ImGui::Checkbox("Normal Per Fragment", &NormPerFrag);
-    for (int i = 0; i < DirectionalLights.size(); i++)
-    {
-        DirectionalLights[i].UI("lights["+std::to_string(i)+"]");
-    }
-    for (int i = 0; i < PointLights.size(); i++)
-    {
-        PointLights[i].UI("Pointlights["+std::to_string(i)+"]");
-    }
-    for (auto &&model : Models)
-    {
-        for (size_t i = 0; i < model.Meshes.size(); i++)
-        {
-            Material* mat = model.Meshes[i].GetMat();
-            ImGui::InputText(("diffuse##"+std::to_string(i)).c_str(), &(mat->Diffuse[0].path));
-            if(ImGui::Button(("LoadDiff##"+std::to_string(i)).c_str())){
-                mat->Diffuse[0] = Texture(GL_TEXTURE_2D, mat->Diffuse[0].path);
-            }
-            // ImGui::InputText("normal##"+std::to_string(i), );
-            // if(ImGui::Button("LoadNorm##"+std::to_string(i))){
-            //     mat->Normal.push_back(Texture(GL_TEXTURE_2D, ));
-            // } 
-        }
-        
-    }
-    ImGui::End();
-}
 
 void Scene::LoadScene(Shader &program)
 {

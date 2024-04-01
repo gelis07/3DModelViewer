@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Gelis/Programs/3D model viewer/include/imgui/imgui_tables.cpp" "CMakeFiles/Test.dir/include/imgui/imgui_tables.cpp.obj" "gcc" "CMakeFiles/Test.dir/include/imgui/imgui_tables.cpp.obj.d"
   "C:/Gelis/Programs/3D model viewer/include/imgui/imgui_widgets.cpp" "CMakeFiles/Test.dir/include/imgui/imgui_widgets.cpp.obj" "gcc" "CMakeFiles/Test.dir/include/imgui/imgui_widgets.cpp.obj.d"
   "C:/Gelis/Programs/3D model viewer/src/Camera.cpp" "CMakeFiles/Test.dir/src/Camera.cpp.obj" "gcc" "CMakeFiles/Test.dir/src/Camera.cpp.obj.d"
+  "C:/Gelis/Programs/3D model viewer/src/Editor/Editor.cpp" "CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj" "gcc" "CMakeFiles/Test.dir/src/Editor/Editor.cpp.obj.d"
   "C:/Gelis/Programs/3D model viewer/src/GlAbst/Framebuffer.cpp" "CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj" "gcc" "CMakeFiles/Test.dir/src/GlAbst/Framebuffer.cpp.obj.d"
   "C:/Gelis/Programs/3D model viewer/src/GlAbst/Shader.cpp" "CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.obj" "gcc" "CMakeFiles/Test.dir/src/GlAbst/Shader.cpp.obj.d"
   "C:/Gelis/Programs/3D model viewer/src/GlAbst/Texture.cpp" "CMakeFiles/Test.dir/src/GlAbst/Texture.cpp.obj" "gcc" "CMakeFiles/Test.dir/src/GlAbst/Texture.cpp.obj.d"

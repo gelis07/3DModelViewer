@@ -11,9 +11,10 @@
 #include <string>
 #include "CubeVertInd.h"
 #include "Scenes.h"
-
+#include "Editor/Editor.h"
+bool showError = true;
 void errorCallback(GLenum source, GLenum type, GLuint id, GLenum severity, GLsizei length, const GLchar* message, const void* userParam) {
-    std::cerr << "GL CALLBACK: " << message << " (ID: " << id << ")" << std::endl;
+    if(showError) std::cerr << "GL CALLBACK: " << message << " (ID: " << id << ")" << std::endl;
 }
 void Render(Shader& program, Camera& cam, std::vector<Light>& lights, std::vector<PointLight>& PointLights,
 Model& model, Model& cube, const glm::mat4& projection, const Texture& DepthMap, const glm::mat4& lightSpaceMatrix){
@@ -46,7 +47,7 @@ int main()
 
     // Create a window and OpenGL context using GLFW
     const unsigned int SCREEN_WIDTH = 1280, SCREEN_HEIGHT = 720;
-    GLFWwindow* window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "New OpenGL Project", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "3D model viewer", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
@@ -60,7 +61,8 @@ int main()
         glfwTerminate();
         return 1;
     }
-
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);  
     // Initialize ImGui
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
@@ -74,10 +76,14 @@ int main()
     glDebugMessageCallback(errorCallback, 0);
     Shader program("ShadowMapping.vs", "ShadowMapping.fs");
     Shader DepthProgram("DepthMap.vs", "DepthMap.fs");
+    Shader GizmosProgram("Gizmos.vs", "Gizmos.fs");
     Shader PointDepthProgram("PointSP.vs", "PointSP.gs", "PointSP.fs");
-    Model model("Assets/Erika.fbx");
+    Model model("Backpack/backpack.obj");
+    Model model1("Backpack/untitled.obj");
     model.Position = glm::vec3(0);
     model.Scale = glm::vec3(1.0f);
+    model1.Position = glm::vec3(0, -10, 0);
+    model1.Scale = glm::vec3(1.0f);
     glm::mat4 projection = glm::perspective(glm::radians(45.0f), 1280.0f/720.0f, 0.1f, 1000.0f);
     bool done = false;
     float DeltaTime = 0.0f;
@@ -93,14 +99,8 @@ int main()
     scene.AddDirLight(std::move(light1));
     scene.AddDirLight(std::move(light2));
 
-    // Material mat(glm::vec3(0.2f), {Texture(GL_TEXTURE_2D,"container2.png")}, {Texture(GL_TEXTURE_2D,"container2_specular.png")}, 32.0f);
-    // VertexPackage vp(vertices, indices);
-    // Mesh mesh(vp,&mat);
-    // Model cube({mesh});
-    // cube.Position = glm::vec3(0.0f, -2.0f, 0.0f);
-    // cube.Scale = glm::vec3(10.0f, 0.5f, 10.0f);
-    // scene.AddModel(std::move(cube));
     scene.AddModel(std::move(model));
+    scene.AddModel(std::move(model1));
 
     // Shader PointLightShadows();
     Texture PLShadow(GL_TEXTURE_CUBE_MAP);
@@ -123,12 +123,32 @@ int main()
     glReadBuffer(GL_NONE);
     glBindFramebuffer(GL_FRAMEBUFFER, 0);
 
+    GLuint VBO, VAO;
+    glGenBuffers(1, &VBO);
+    glGenVertexArrays(1, &VAO);
+    glBindVertexArray(VAO);
+    glBindBuffer(GL_ARRAY_BUFFER,VBO);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(Plane), Plane, GL_STATIC_DRAW);
+
+    Texture lightIcon(GL_TEXTURE_2D, "Assets/idea.png");
+
+    // Pos attribute
+    glEnableVertexAttribArray(0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sizeof(float) * 5, (void*)0);
+    // texture coord attribute
+    glEnableVertexAttribArray(1);
+    glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 5, (void*)(3*sizeof(float)));
+
+    glBindVertexArray(0);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+
     // Camera PointShadowCam;
     float aspect = (float)SHADOW_WIDTH/(float)SHADOW_HEIGHT;
     float near = 1.0f;
     float far = 25.0f;
     glm::mat4 shadowProj = glm::perspective(glm::radians(90.0f), aspect, near, far); 
     std::vector<glm::mat4> shadowTransforms;
+    // showError = false;
     while (!done)
     {
         // Start a new ImGui frame
@@ -146,13 +166,11 @@ int main()
         scene.CaclulateDepthMap(DepthProgram);
         scene.Render(program, SCREEN_WIDTH, SCREEN_HEIGHT);
 
-        scene.Editor();
         shadowTransforms.clear();
-
-        // glBindVertexArray(quadVAO);
-        // glBindTexture(GL_TEXTURE_2D, );
-        // glDrawArrays(GL_TRIANGLES, 0, 6);
+        glBindFramebuffer(GL_FRAMEBUFFER, 0);
         // Render the ImGui frame
+        Hierachy(&scene, VAO, lightIcon, GizmosProgram, projection);
+        Editor(&scene);
         ImGui::Render();
         glViewport(0, 0, (int)io.DisplaySize.x, (int)io.DisplaySize.y);
         ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());

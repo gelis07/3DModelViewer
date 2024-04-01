@@ -170,10 +170,5 @@ void main()
     vec3 L1lighting = (ambient + (1.0 - (shadow)) * (diffuse + specular));
     vec3 P1lighting = (ambient + (1.0 - (PLshadow)) * (Ldiffuse + Lspecular));
     lighting += L1lighting + P1lighting;
-    // vec3 lightPos = Pointlights[0].pos;
-    // vec3 fragToLight = FragPos - lightPos;
-    // float closestDepth = texture(PointLightShadowMap, fragToLight).r;
-    // vec3 lighting = (ambient + (1.0 - PLshadow) * (diffuse + specular));
     FragColor = vec4(lighting, 1.0);
-    // FragColor = vec4(vec3(PointLightShadowCalc(FragPos)), 1.0);
 }
